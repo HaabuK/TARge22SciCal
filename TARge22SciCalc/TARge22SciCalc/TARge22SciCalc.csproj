@@ -6,17 +6,17 @@
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net6.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
-		<RootNamespace>TARge22SciCal</RootNamespace>
+		<RootNamespace>TARge22SciCalc</RootNamespace>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>TARge22SciCal</ApplicationTitle>
+		<ApplicationTitle>TARge22SciCalc</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.targe22scical</ApplicationId>
-		<ApplicationIdGuid>7a71222b-d275-4670-8b95-dadf1b2b48c7</ApplicationIdGuid>
+		<ApplicationId>com.companyname.targe22scicalc</ApplicationId>
+		<ApplicationIdGuid>16c3c720-74e5-46e9-bc94-358da125d479</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>

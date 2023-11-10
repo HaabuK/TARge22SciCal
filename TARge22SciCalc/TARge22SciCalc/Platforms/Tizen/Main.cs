@@ -2,7 +2,7 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace TARge22SciCal;
+namespace TARge22SciCalc;
 
 class Program : MauiApplication
 {

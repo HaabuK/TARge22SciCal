@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace TARge22SciCal;
+namespace TARge22SciCalc;
 
 [Application]
 public class MainApplication : MauiApplication

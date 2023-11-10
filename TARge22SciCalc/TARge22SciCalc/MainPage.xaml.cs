@@ -1,4 +1,4 @@
-﻿namespace TARge22SciCal;
+﻿namespace TARge22SciCalc;
 
 public partial class MainPage : ContentPage
 {

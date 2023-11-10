@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace TARge22SciCal;
+namespace TARge22SciCalc;
 
 public class Program
 {
