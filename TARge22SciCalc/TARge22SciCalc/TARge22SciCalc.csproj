@@ -59,4 +59,7 @@
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Views\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="NCalcSync" Version="3.8.0" />
+	</ItemGroup>
 </Project>
