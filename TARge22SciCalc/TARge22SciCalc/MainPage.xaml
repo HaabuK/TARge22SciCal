@@ -18,14 +18,16 @@
             <Label
                 Text="Hello, World!"
                 SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
+                FontFamily="CairoL"
+                FontSize="60"
                 HorizontalOptions="Center" />
 
             <Label
                 Text="Welcome to .NET Multi-platform App UI"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
+                FontFamily="CairoEL"
+                FontSize="30"
                 HorizontalOptions="Center" />
 
             <Button
