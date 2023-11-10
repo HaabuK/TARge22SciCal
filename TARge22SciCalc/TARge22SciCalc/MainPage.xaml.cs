@@ -7,9 +7,31 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+#if __MACCATALYST__
+            // This code will be included only when running on macOS with Mac Catalyst
+
+            // Create your UI elements
+            var label = new Label
+            {
+                Text = "Hello MAUI on Mac Catalyst!",
+                FontSize = 50,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
+
+            // Add UI elements to the layout
+            var stackLayout = new StackLayout
+            {
+                Children = { label }
+            };
+
+            // Set the content of the page
+            Content = stackLayout;
+#endif
+    }
+
+    private void OnCounterClicked(object sender, EventArgs e)
 	{
 		count++;
 
